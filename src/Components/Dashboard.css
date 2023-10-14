@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.Dashboard{
+    border:1px solid black;
+    height:44.7rem;
+    width:280px;
+    float:left;
+    background-color: rgb(12, 30, 100);
+}
+#DashboardText{
+    border:1px solid rgb(12, 30, 100);;
+    color: white;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+.navigate{
+    color: white;
+    border:1px solid rgb(12, 30, 100);
+    /* border:1px solid white; */
+    font-size:medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+    margin-left: 50px;
+    height:30px;
+
+    
+
+}
+.icons{
+    font-size: smaller;
+    margin-right: 0.5rem;
+    font-weight: bold;
+}
+.iconA{
+    font-size: smaller;
+    font-weight: bold;
+    
+}
+#A{
+    margin-left: 7rem;
+}
+#B{
+    margin-left: 6rem;
+}
+#C{
+    margin-left: 7rem;
+}
+#D{
+    margin-left: 6.8rem;
+}
+#E{
+    margin-left: 8rem;
+}
+.navigate:hover{
+    color:green;
+    
+}
+.logIn{
+    color: white;
+    border:1px solid rgb(12, 30, 100);;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 6rem;
+    margin-left:1rem;
+    height:4rem;
+    background-color: lightslategray;
+}
+.photo{
+    border:1px solid rgb(12, 30, 100);;
+    width:5rem;
+    height:3.4rem;
+    margin-top: 0.2rem;
+    margin-left: 0.5rem;
+    float :left;
+    background-image: url(../Components/pictures/IMG_20230221_194556_copy_1474x1620.jpg);
+    background-position: top;
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+#myname{
+    font-size: large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    margin-left: 0.5rem;
+}
+#role{
+    margin-left: 1.2rem;
+    font-style: italic;
+}
